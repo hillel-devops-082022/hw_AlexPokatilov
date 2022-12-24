@@ -1,4 +1,4 @@
-version: "3"
+version: "3.5"
 services:
 
   frontend:
@@ -21,11 +21,12 @@ services:
       NODE_ENV: 'production'
       MONGO_DB_URI: 'mongodb://mongo/conduit'
       SECRET: 'secret'
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://backend:8081/api/status"]
-      interval: 10m
-      timeout: 10s
-      retries: 3
+    # healthcheck:
+    #   test: wget -t 1 http://localhost:8081/api/status || exit 1
+    #   interval: 15s
+    #   timeout: 10s
+    #   retries: 3
+    #   start_period: 10s
     ports:
       - 8081:8081
     restart: on-failure
