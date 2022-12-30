@@ -2,3 +2,4 @@
 terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/4.48.0/linux_amd64/terraform-provider-aws_v4.48.0_x5
 terraform-with-modules/.terraform/providers/registry.terraform.io/hashicorp/aws/4.17.1/linux_amd64/terraform-provider-aws_v4.17.1_x5
 terraform-vpc/.terraform/providers/registry.terraform.io/hashicorp/aws/4.48.0/linux_amd64/terraform-provider-aws_v4.48.0_x5
+.env
