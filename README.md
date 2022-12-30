@@ -36,6 +36,22 @@
 ## HW 19 Terraform
 **Create similar resources like resources from previous HW task**
 
+## HW 20 Terraform modules
+**Create some resources with open modules for AWS**
+
+I created some ec2 instances by aws_ec2_module
+
+## HW 21 Ansible intro
+**Complete hw ansible guide**
+
+I changed ami data on main.tf, because it is not work.
+
+And changed some part of playbook (I don`t need to install python3)
+
+## HW 22 Ansible: Vault, Handlers, Vagrant, Templates
+
+## HW 23 Ansible: Roles
+
 ## HW 24 Kubernetes
 **Work units:**
 - StorageClass
