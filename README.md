@@ -48,9 +48,9 @@ I changed ami data on main.tf, because it is not work.
 
 And changed some part of playbook (I don`t need to install python3)
 
-## HW 22 Ansible
+## HW 22 Ansible: Vault, Handlers, Vagrant, Templates
 
-## HW 23 Ansible
+## HW 23 Ansible: Roles
 
 ## HW 24 Kubernetes
 **Work units:**
