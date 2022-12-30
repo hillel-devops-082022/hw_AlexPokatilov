@@ -80,7 +80,7 @@ resource "aws_security_group" "web" {
     protocol    = "tcp"
     # cidr вашего public ip
     cidr_blocks = [
-      "176.113.167.49/32",
+      "176.36.160.181/32",
       data.aws_vpc.default.cidr_block
     ]
   }
